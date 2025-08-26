@@ -397,7 +397,7 @@ const handleKeyPress = (event) => {
 
 .memo-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
   flex: 1;
 }
@@ -406,6 +406,8 @@ const handleKeyPress = (event) => {
   width: 18px;
   height: 18px;
   cursor: pointer;
+  margin-top: 2px;
+  flex-shrink: 0;
 }
 
 .memo-text {
@@ -417,6 +419,10 @@ const handleKeyPress = (event) => {
   font-size: 16px;
   color: #2d3748;
   transition: all 0.2s;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  line-height: 1.5;
 }
 
 .memo-content-text.line-through {
@@ -437,6 +443,9 @@ const handleKeyPress = (event) => {
   cursor: pointer;
   transition: all 0.2s;
   font-size: 14px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 2px;
 }
 
 .delete-btn:hover {
@@ -507,5 +516,10 @@ const handleKeyPress = (event) => {
   .filters {
     flex-wrap: wrap;
   }
+}
+
+/* 添加按钮点击效果 */
+.add-btn:active {
+  transform: translateY(-1px) scale(0.98);
 }
 </style>
