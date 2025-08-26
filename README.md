@@ -394,10 +394,10 @@ A: 检查代码语法错误，确认所有依赖正确安装
 
 ## 📞 联系方式
 
-- **作者**：Your Name
-- **邮箱**：your.email@example.com
-- **GitHub**：[@your-username](https://github.com/your-username)
-- **项目地址**：[vue3-memo-app](https://github.com/your-username/vue3-memo-app)
+- **作者**：kamie
+- **邮箱**：1220283064@zust.edu.cn
+- **GitHub**：[@kami-ay1](https://github.com/kami-ay1)
+- **项目地址**：[vue3-memo-app](https://github.com/kami-ay1/vue3-memo-app)
 
 ## 🙏 致谢
 
